@@ -9,7 +9,12 @@
 }
 
 @layer base {
+  html {
+    @apply text-white;
+  }
   body {
     @apply bg-zinc-800;
+    @apply max-w-screen-xl;
+    @apply mx-auto;
   }
 }
